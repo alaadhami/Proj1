@@ -1,4 +1,4 @@
-package secureprogramminghwone;
+package codewithbugs;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -7,7 +7,7 @@ import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class c1ass {
+public class Class1 {
 	
 	public static void main(String args[]) {
 
@@ -40,11 +40,9 @@ public class c1ass {
 		if (str1 != str2)
 			str1 = "66";
 
-        //  I DID NOT USE THIS ONE IN MY HW 
-		// Useless object created
+     		// Useless object created
 		ArrayList<Character> charArrLst = new ArrayList<>();
-		String labels[] = { "young", "younger", "youngest" }; // easier and clearer 
-
+		String labels[] = { "young", "younger", "youngest" }; 
 		
 		
 		
@@ -63,7 +61,7 @@ public class c1ass {
 }
 
 //Unread field 
-class sub extends c1ass {
+class sub extends Class1 {
 	final int jjj = 3;
 	public final double pi = 3.14;
 
